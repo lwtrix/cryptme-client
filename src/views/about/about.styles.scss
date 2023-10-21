@@ -1,0 +1,55 @@
+.about-container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 28px;
+  margin-top: 68px;
+
+  .title-container {
+    margin: 0;
+    margin-bottom: 32px;
+
+    .title {
+      color: #f46d3a;
+      text-transform: uppercase;
+      font-family: "Akshar", sans-serif;
+      font-size: 18px;
+      letter-spacing: 2px;
+      font-weight: 100;
+    }
+
+    .heading {
+      margin: 0;
+      font-size: 72px;
+      color: white;
+      font-weight: 700;
+    }
+  }
+
+  .text-container {
+    .text {
+      color: white;
+      max-width: 68%;
+
+      .roadmap-link {
+        color: #f46d3a;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .team-container {
+    margin-top: 62px;
+
+    .title {
+        color: white;
+        font-size: 28px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+      .collaborators-container {
+          display: flex;
+          margin-top: 28px;
+      }
+  }
+}
