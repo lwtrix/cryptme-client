@@ -7,8 +7,8 @@ const CollaboratorThumb = ({ name, role }) => {
         <img src="avatar-placeholder.png" alt="avatar" />
       </div>
       <div className="details-container">
-        <span className="name">LwTrix</span>
-        <span className="role">Developer</span>
+        <span className="name">{name}</span>
+        <span className="role">{role}</span>
       </div>
     </div>
   );

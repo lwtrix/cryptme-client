@@ -1,0 +1,44 @@
+.news-entry-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 82px;
+
+  .title-container {
+    .text {
+      color: #f46d3a;
+      text-transform: uppercase;
+      font-family: "Akshar", sans-serif;
+      font-size: 18px;
+      letter-spacing: 2px;
+      font-weight: 100;
+    }
+
+    .title {
+      margin: 0;
+      font-size: 58px;
+      color: white;
+      font-weight: 700;
+    }
+  }
+
+  .content-container {
+    margin-top: 18px;
+    max-width: 68%;
+    color: white;
+    font-size: 18px;
+  }
+
+  .footer {
+    color: rgb(175, 175, 175);
+    margin-top: 32px;
+    font-size: 15px;
+
+    .author {
+      color: #f46d3a;
+      padding: 3px;
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.075);
+      margin-left: 4px;
+    }
+  }
+}

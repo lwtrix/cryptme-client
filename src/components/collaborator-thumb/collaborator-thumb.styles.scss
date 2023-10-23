@@ -29,12 +29,14 @@
 
         .name {
             font-size: 18px;
+            text-transform: capitalize;
         }
 
         .role {
             font-size: 12px;
             margin-top: 4px;
             color: rgb(143, 143, 143);
+            text-transform: capitalize;
         }
     }
 }

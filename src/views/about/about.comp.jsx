@@ -28,9 +28,9 @@ const About = () => {
       <div className="team-container">
         <span className="title">The Team</span>
         <div className="collaborators-container">
-          <CollaboratorThumb />
-          <CollaboratorThumb />
-          <CollaboratorThumb />
+          <CollaboratorThumb name={'Tim'} role={'Token Creator'}/>
+          <CollaboratorThumb name={'LwTrix'} role={'Developer'}/>
+          <CollaboratorThumb name={'Yapheh'} role={'Graphic Designer / CC'}/>
         </div>
       </div>
     </div>
