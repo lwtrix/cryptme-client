@@ -1,8 +1,8 @@
 import './custom-btn.styles.scss'
 
-const CustomBtn = ({ children }) => {
+const CustomBtn = ({ children, size, variation, radius }) => {
   return (
-    <button className='custom-btn'>{children}</button>
+    <button className={`custom-btn ${size} ${radius}`}>{children}</button>
   )
 }
 

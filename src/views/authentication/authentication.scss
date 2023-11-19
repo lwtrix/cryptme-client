@@ -6,47 +6,19 @@
   margin: 0 auto;
 
   .controls-container {
-    margin: 18px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 
     .control {
-      margin: 0 18px;
       background-color: white;
-      display: inline-block;
       padding: 8px 62px;
       border-radius: 4px;
     }
-  }
 
-  form {
-    width: 380px;
-
-    .custom-form {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-
-      .input-container {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 18px;
-
-        .label {
-          margin-bottom: 8px;
-          color: white;
-        }
-
-        input {
-          border: 2px solid #f46c3a6b;
-          padding: 6px 0;
-          border-radius: 4px;
-          padding-left: 12px;
-          font-size: 18px;
-          outline: none;
-          color: black;
-          background-color: white;
-
-        }
-      }
+    .control.active {
+      background-color: #f46d3a;
+      color: white;
     }
   }
 }

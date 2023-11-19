@@ -1,0 +1,49 @@
+.auth-form-container {
+  width: 380px;
+  margin-top: 38px;
+  margin-bottom: 32px;
+
+  .errors-container {
+    background-color: #F18F01;
+    padding: 12px;
+    padding-left: 18px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+
+    .error-message {
+      margin: 0;
+      margin-bottom: 8px;
+      color: white;
+      font-weight: 300;
+      display: list-item;
+      margin-left: 16px;
+    }
+  }
+
+  .auth-text-container {
+    margin-bottom: 24px;
+
+    .auth-heading {
+      color: white;
+      font-size: 30px;
+      display: block;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+
+    .auth-text {
+      color: rgb(211, 211, 211);
+      font-weight: 200;
+    }
+  }
+
+  .custom-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .custom-btn {
+      margin-top: 12px;
+    }
+  }
+}

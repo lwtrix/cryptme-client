@@ -1,0 +1,31 @@
+.custom-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+
+  .label {
+    margin-bottom: 8px;
+    color: white;
+  }
+
+  .label-info {
+    font-weight: 200;
+    color: rgb(211, 211, 211);
+    margin-bottom: 16px;
+  }
+
+  input {
+    border: 2px solid #f46c3a93;
+    padding: 6px 0;
+    border-radius: 4px;
+    padding-left: 12px;
+    font-size: 18px;
+    outline: none;
+    color: black;
+    background-color: white;
+
+    &:focus {
+      border: 2px solid #f46c3a;
+    }
+  }
+}
