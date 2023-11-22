@@ -5,8 +5,10 @@ import Home from './views/home/home.comp';
 import About from './views/about/about.comp';
 import News from './views/news/news.comp';
 import Authentication from './views/authentication/authentication';
+import { useEffect } from 'react';
 
 function App() {
+
   return (
     <div className="App">
       <Routes>

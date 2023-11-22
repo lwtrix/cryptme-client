@@ -1,7 +1,5 @@
 import './authentication.scss';
 import { useState } from 'react';
-import CustomBtn from '../../components/custom-btn/custom-btn.comp';
-import CustomInput from '../../components/custom-input/custom-input.comp';
 import AuthForm from '../../components/auth-form/auth-form.comp';
 
 const Authentication = () => {
