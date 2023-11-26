@@ -1,0 +1,11 @@
+.articles-container {
+  .title {
+    color: white;
+    font-size: 48px;
+  }
+
+  .articles-list-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

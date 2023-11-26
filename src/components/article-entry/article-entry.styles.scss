@@ -1,0 +1,51 @@
+.article-entry-container {
+  border: 1px solid rgba(255, 255, 255, 0.171);
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 24px;
+
+  &:hover {
+    border-color: rgba(255, 255, 255, 0.561);
+    cursor: pointer;
+  }
+
+  .article-title {
+    font-size: 24px;
+    color: white;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 18px;
+  }
+
+  .article-paragraph {
+    margin: 0;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 12px;
+  }
+
+  .article-date {
+    color: rgb(138, 138, 138);
+    display: inline-block;
+    margin-right: 3px;
+
+    .date {
+      color: rgb(167, 167, 167);
+    }
+  }
+
+  .article-author {
+    color: rgb(138, 138, 138);
+    margin-right: 12px;
+    display: inline-block;
+    margin-top: 18px;
+
+    .author {
+      color: #f46d3a;
+      background-color: rgba(255, 255, 255, 0.13);
+      padding: 3px 4px;
+      border-radius: 5px;
+      margin-left: 3px;
+    }
+  }
+}

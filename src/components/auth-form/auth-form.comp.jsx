@@ -4,6 +4,7 @@ import CustomBtn from '../custom-btn/custom-btn.comp';
 import CustomInput from '../custom-input/custom-input.comp';
 import CustomErrors from '../custom-error/custom-errors.comp';
 import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 const AuthForm = ({ type = 'signin' }) => {
   const authText = {
@@ -14,6 +15,7 @@ const AuthForm = ({ type = 'signin' }) => {
       'Please sign up using a valid e-mail, a username and a secure password. You will also need to provide a secret auth key when creating an admin account. Alternatively, click the sign in button to sign in if you already have an account.',
   };
 
+  const navigate = useNavigate()
   const dispatch = useDispatch();
   const [errors, setErrors] = useState([]);
   const [credentials, setCredentials] = useState({
@@ -52,6 +54,7 @@ const AuthForm = ({ type = 'signin' }) => {
       setErrors(data.errors);
     } else {
       dispatch({ type: 'SET_USER', payload: data });
+      navigate('/admin-dashboard')
     }
   };
 
